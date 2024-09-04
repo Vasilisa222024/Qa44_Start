@@ -7,5 +7,8 @@ public class ProgramMain {
        Employee sam=new Employee("Sam","Good","MMM");
        sam.display();
        sam.work();
+        Person nick = new Employee (  "Nick",  "Bor",
+                 "Oracle");
+        nick. display();
     }
 }

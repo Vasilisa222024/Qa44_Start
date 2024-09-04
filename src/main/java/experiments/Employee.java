@@ -17,7 +17,7 @@ public class Employee extends Person{
     }
     public void work()
     {
-        System.out.println("works in "+getName()+" "+getLastname()+" "+getCompany());
+        System.out.println(getName()+" "+getLastname()+"works in "+" "+getCompany());
         System.out.println("mmm");
     }
 }
