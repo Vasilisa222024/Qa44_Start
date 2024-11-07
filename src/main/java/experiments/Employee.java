@@ -18,6 +18,14 @@ public class Employee extends Person{
     public void work()
     {
         System.out.println(getName()+" "+getLastname()+"works in "+" "+getCompany());
-        System.out.println("mmm");
+
     }
+   @Override
+    public  void display(){
+
+       // System.out.println("Name:"+ getName().toUpperCase()+" "+"LastName:"+getCompany());
+       super.display();
+        System.out.println("Work in "+getCompany());
+    }
+
 }
